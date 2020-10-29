@@ -1,7 +1,7 @@
 ''' https://projecteuler.net/problem=1
 '''
 
-def solution(n):
+def solution(n: int) -> int:
     result = 0
     for i in range(n):
         if i % 3 == 0 or i % 5 == 0:
